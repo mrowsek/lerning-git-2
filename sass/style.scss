@@ -32,15 +32,17 @@ h1 {
 .box-text {
     flex: 0 0 40%;
     font-size: 19px;
+    text-align: center;
 }
 
 .box-picture {
     flex: 0 0 30%;
-}
+    }
 
 img {
     width: 387px;
     height: 550px;
+    border-radius: 20%;
 }
 
 footer {

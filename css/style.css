@@ -42,6 +42,7 @@ h1 {
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
   font-size: 19px;
+  text-align: center;
 }
 
 .box-picture {
@@ -53,6 +54,7 @@ h1 {
 img {
   width: 387px;
   height: 550px;
+  border-radius: 20%;
 }
 
 footer {
