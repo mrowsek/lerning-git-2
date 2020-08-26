@@ -1,1 +1,70 @@
 /* General */ 
+
+body {
+    background-color: azure;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: 0px;
+    }
+
+.section-title {
+    background-color: brown;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    }
+
+.box-text {
+    flex: 0 0 40%;
+    font-size: 19px;
+}
+
+.box-picture {
+    flex: 0 0 30%;
+}
+
+img {
+    width: 387px;
+    height: 550px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    
+    .container {
+        width: 100%;
+        border: none;
+
+        .section-title {
+            width: 100%;
+        }
+    }
+
+    .flex-box {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .box-text {
+        font-size: 15.5 vw;
+    }
+}

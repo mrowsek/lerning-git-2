@@ -1,2 +1,81 @@
 /* General */
+body {
+  background-color: azure;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-bottom: 0px;
+}
+
+.section-title {
+  background-color: brown;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.box-text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  font-size: 19px;
+}
+
+.box-picture {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+img {
+  width: 387px;
+  height: 550px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .container {
+    width: 100%;
+    border: none;
+  }
+  .container .section-title {
+    width: 100%;
+  }
+  .flex-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .box-text {
+    font-size: 15.5 vw;
+  }
+}
 /*# sourceMappingURL=style.css.map */
